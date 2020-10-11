@@ -1,0 +1,244 @@
+<header style="background-color: white">
+	
+<button class="button4">Welcome Back
+  	<a href="#back"><i class="fa fa-fw fa-bell"></i></a>
+ <style> 	.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+}
+</style>
+  	<img src="profileimage.png" alt="Avatar" class="avatar">
+    
+</button>
+</header>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		#id1{
+			color:darkblue;
+			padding-left: 200px;
+			text-align: left;
+			}		
+		#id2{
+
+			color:black;
+			padding-left: 200px;
+		}
+	    .button1{
+	    	border:none;
+	    	background-color:blue;
+	    	color:white;
+	    	text-align: center;
+	    	margin-left: 300px;
+	    	font-size: 20px;
+	    	padding: 20px;
+	    	padding-left: 100px;
+	    	padding-right: 100px;
+	    }
+	    .button2{
+	    	border:none;
+	    	background-color:red;
+	    	color:white;
+	    	text-align: center;
+	    	margin-left: 200px;
+	    	font-size: 20px;
+	    	padding: 20px;
+	    	padding-left: 100px;
+	    	padding-right: 100px;
+	    }
+
+
+        .sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 45px;
+}
+
+.sidebar a {
+  padding: 15px 15px 10px 6px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: black;
+  background-color: #C4F5D2;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.button3{
+		background-color:lightgreen; border-color: darkgreen;  padding: 14px;
+  font-size: 12px;
+  border-width: 4px;
+  margin-left: 1200px;
+  text-align: center;
+  margin-top: -50px;
+
+}
+
+.button4{
+		background-color:lightgreen; border-color: darkgreen;  padding: 16px;
+  font-size: 12px;
+  border-width: 2px;
+  margin-left: 1100px;
+  text-align: center;
+
+}
+
+
+.container {
+  position: relative;
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+
+img { 
+  width: 100%;
+  height: auto;
+  }
+
+
+.text{
+	height: 25px;
+	width: 300px;
+}
+	   	</style>
+</head>
+
+<body bgcolor="#C4F5D2">
+
+    <div class="sidebar" style="background-color: white">
+  
+<div class="container">
+  <img src="first.png"width="400" height="200">
+</div>
+
+  <a href="practice.html"><i class="fa fa-fw fa-dashboard"></i>Dashboard</a>
+  <a href="practice.html"><i class="fa fa-fw fa-envelope"></i>Client Details</a>
+  <a href="practice.html"><i class="fa fa-fw fa-envelope"></i>Enquiry Details</a>
+  <a href="practice.html"><i class="fa fa-fw fa-calendar"></i>Work Calendar</a>
+  <a href="practice.html"><i class="fa fa-fw fa-bell"></i>Notifications</a>
+  <a href="practice.html"><i class="fa fa-fw fa-user"></i>Profile</a>
+   
+   	<a href="practice.html" style="margin-top: 200px"><i class="fa fa-fw fa-backward"></i>LOGOUT</a>
+   </div>
+
+</div>
+<div>
+
+	<h1 id="id1">Add New Client</h1>
+	<p id="id2">Marketing & Sales</p>
+		<button class="button3">  View Client 
+     	 	<a href="#profile"><i class="fa fa-fw fa-eye"></i></a>
+</button>
+ 
+</div>
+
+	<a style="padding-left: 200px">HOME <i class="fa fa-angle-right"></i></a>
+	<a href="#addnewclient" style="padding-left: 10px">Add New Client</a>
+	<h3 style="padding-left: 200px">Personal Information</h3>
+	<form style="padding-left: 200px">
+		<p>
+	    <input type="text" size="30" id="Cname" name="Cname" placeholder="Client Name" class="text">	
+	    <input type="text" size="30" id="Number" name="Number" placeholder="Phone Number" class="text">	
+	    <input type="text" size="30" id="eid" name="eid" placeholder="Email Id" class="text">	
+	</p>
+	<p>
+	    <input type="text" size="30" id="address" name="address" placeholder="Address" class="text">	
+	    
+	    <select name="country" id="country" class="text">
+	    	<option value="Country">Select Country</option>
+	    	<option value="america">America</option>
+	    	<option value="brazil">Brazil</option>
+	    	<option value="india">India</option>
+	    	<option value="jordan">Jordan</option>
+	    	<option value="malaysia">Malasyia</option>
+	    </select>	
+	    <select name="state" id="state" class="text">
+	    	<option value="State">Select State</option>
+	    	<option value="xyz">xyz</option>
+	    	<option value="abc">abc</option>
+	    	<option value="gujrat">Gujrat</option>
+	    	<option value="rajasthan">Rajasthan</option>
+	    	<option value="uttrakhand">Uttrakhand</option>
+	    </select>	
+
+	</p>
+	<p>
+	    <input type="text" size="30" id="City" name="City" placeholder="Select City" class="text">	
+	    <input type="text" size="30" id="code" name="code" placeholder="Pincode" class="text">	
+	    <input type="text" size="30" id="contact" name="contact" placeholder="Official Contact Number" class="text">	
+	</p>
+	</form>
+    <br>
+    <h3 style="margin-left: 200px" class="text">Enquiry Details</h3>
+    <p style="padding-left: 200px">
+        <select name="enquiry" id="enquiry" class="text">
+	        <option placeholder="enquirytype">Type Of Enquiry</option>
+	        <option value="xyz">xyz</option>
+	        <option value="abc">abc</option>
+	    </select>
+	   <input type="text" size="30" id="edetails" name="edetails" placeholder="Enquiry Details" class="text">
+       
+  <input type="date" placeholder="Today's Date" class="text">	   <!-- <input type="text" size="30" id="" name="TDate" placeholder="Today's Date" class="text"><i class="fa fa-calendar"></i> -->
+
+	</p>
+	<p style="padding-left: 200px">
+		 <select name="status" id="status" class="text">
+	        <option value="estatus">Enquiry Status</option>
+	        <option value="xyz">xyz</option>
+	        <option value="abc">abc</option>
+	    </select>
+	    <input type="text" size="30" id="phonenumber" class="text" name="phonenumber" placeholder="Phone Number">
+	     <select name="currentstatus" id="currentstatus" class="text">
+	        <option value="currentstatus">Current Enquiry Status</option>
+	        <option value="xyz">xyz</option>
+	        <option value="abc">abc</option>
+	    </select>
+		
+	</p>
+	<br><br>
+     
+    <button class="button1">Add New Client</button>
+   <a href="FIRSTTASK.html"> <button class="button2">Cancel</button></a>
+
+</body>
+</html>
+
+
+
+
+
+
+

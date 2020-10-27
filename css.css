@@ -184,6 +184,9 @@
             grid-template-columns: auto auto;
             margin: 10px 0px 0px 20px;
         }
+        .div1{
+            display: none;
+        }
         
         .id{
             margin: 10px 0px 0px 200px;
@@ -194,9 +197,10 @@
         }
         .div2{
             width: 100%;
+            margin: 0;
         }
         .div3{
-            
+            margin: 0;
             width: 100%;
         }
         .h1{
@@ -207,14 +211,6 @@
         }
         .div1{
             display: none;
-        }
-        .button1{
-            margin: 30px 300px 30px 0px;
-            width: 100px;
-        }
-        .button2{
-            margin: 30px 0px 30px 0px;
-            width: 100px;
         }
         .client{
             margin: 10px 0px 0px 0px;
@@ -230,6 +226,12 @@
         .first{
             margin: 10px 200px 0px 0px;
         }
+        .h1{
+            margin: 5px 0px 0px 0px;
+        }
+        .h2{
+            margin: 5px 0px 0px 0px;
+        }
         .div1{
             display: none;
         }
@@ -244,6 +246,84 @@
             margin: 10px 200px 0px 5px;
             
         }
+        .number{
+            margin: 10px 200px 0px 5px;
+        }
+    }
+    @media only screen and (max-width: 640px){
+        .input{
+            grid-template-columns: auto;
+            margin: 10px 500px 0px 0px;
+           
+        }
+        .first{
+            margin: 10px 200px 0px 0px;
+        }
+        .h1{
+            margin: 5px 0px 0px 0px;
+        }
+        .h2{
+            margin: 5px 0px 0px 0px;
+        }
+        .div1{
+            display: none;
+        }
+        .div2{
+            width: 100%;
+        }
+        .div3{
+            margin: 0;
+            width: 100%;
+        }
+        .client{
+            margin: 10px 250px 0px 0px;
+        }
+        .number{
+            margin: 10px 200px 0px 0px;
+        }
+        .id{
+            margin: 10px 200px 0px 0px;
+        }
+
+    }
+    @media only screen and (max-width: 400px){
+        .input{
+            grid-template-columns: auto;
+            margin: 10px 400px 0px -50px;
+            
+           
+        }
+        .first{
+            margin: 10px 200px 0px 0px;
+        }
+        .h1{
+            margin: 5px 0px 0px 0px;
+        }
+        .h2{
+            margin: 5px 0px 0px 0px;
+        }
+        .div1{
+            display: none;
+        }
+        .div2{
+            width: 100%;
+        }
+        .div3{
+            margin: 0;
+            width: 100%;
+        }
+        .client{
+            margin: 10px 300px 0px 0px;
+            width: 50px;
+        }
+        .number{
+            width: 50px;
+            margin: 10px 300px 0px 0px;
+        }
+        .id{
+            margin: 10px 300px 0px 0px;
+        }
+
     }
    
     .client{

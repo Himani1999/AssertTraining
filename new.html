@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <style>
@@ -17,14 +18,15 @@
     }
 
     .div1 {
-        width:195px;
+        width:201px;
         float: left;
         background-color: white;
         height: 100%;
+        margin: 0px;
     }
 
     .div1 a {
-        padding: 20px 0px 20px 0px;
+        padding: 20px 8px 20px 16px;
         text-decoration: none;
         font-size: 17px;
         color: #818181;
@@ -43,14 +45,22 @@
         height: 50px;
         margin: 20px 20px 20px 40px;
     }
-
-    .dash {
-        margin-left: 20px;
+    
+    .detail{
+        border-left: 4px solid #1282E5;
+        color: black;
         padding: 20px 0px 0px 0px;
         font-weight: bold;
         font-size: 20px;
         font-family: sans-serif;
-        text-decoration: none;
+        background-color: #D4FFD4;   
+    }
+    .dash {
+        padding: 20px 0px 0px 0px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: sans-serif;
+    
     }
 
     .div1 ul li {
@@ -71,13 +81,15 @@
         height: 30px;
         border-radius: 50%;
         float: right;
+        padding: 5px 0px;
     }
 
     .button4 {
         padding: 13px;
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
         float: right;
+        font-weight: bold;
     }
 
     .header {
@@ -127,7 +139,7 @@
         font-family: Sans-serif;
         font-size: 10px;
         font-size: 12px;
-        margin: 0px 0px 20px 20px;
+        margin: 20px 0px 20px 20px;
         color: black;
     }
 
@@ -163,8 +175,9 @@
     .input-field {
         height: 30px;
         width: 100%;
+        box-shadow: 2px 2px 2px 2px grey;
+        border: none;
     }
-
     #input-item-1 {
         margin: 0px 5px 5px 5px;
     }
@@ -176,7 +189,11 @@
     #input-item-3 {
         margin: 0px 5px 5px 5px;
     }
-
+    .float{
+        float: right;
+        padding: 10px 20px 10px 5px;
+        color: black;
+    }
     .btn {
         margin: 20px 0px 50px 0px;
         display: grid;
@@ -196,6 +213,7 @@
         margin: 0px 10px 0px 0px;
         height: 40px;
         float: right;
+        
     }
 
     .button2 {
@@ -209,34 +227,74 @@
         width: 300px;
         height: 40px;
         margin: 0px 0px 0px 10px;
-        */
+        
     }
 
     .logout {
-        margin-left: 20px;
         margin-top: 150px;
         font-weight: bold;
         font-size: 20px;
         font-family: sans-serif;
         text-decoration: none;
+        padding: 20px 8px 20px 16px;
+        background-color: #D4FFD4;
+        border-left: 4px solid #1282E5;
+        color: black;
+    }
+    
+    .viewclient{
+        border: 1px solid green; 
+        float: right; 
+        margin-right: 50px; 
+        height: 40px; 
+        width: 100px; 
+        background-color: #D4FFD4; 
+        box-shadow: 2px 2px 0px 0px grey;
     }
 
-    @media only screen and (max-width:300px) {
+    @media only screen and (max-width:380px) {
         .col3 {
             display: grid;
             grid-template-columns: auto;
             padding: 0px 20px;
         }
-
         .btn {
             display: grid;
             grid-template-columns: auto;
         }
-
+        .button1{
+            margin: 100px 200px 0px 0px;
+        }
+        .button2{
+            margin: 0px 200px 50px 0px;
+        }
         .div1 {
             display: none;
         }
-
+        .div2 {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width:480px) {
+        .col3 {
+            display: grid;
+            grid-template-columns: auto;
+            padding: 0px 20px;
+        }
+        .btn {
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .button1{
+            margin: 0px 100px 0px 0px;
+        }
+        .button2{
+            margin: 0px 100px 0px 0px;
+        }
+        .div1 {
+            display: none;
+        }
         .div2 {
             width: 100%;
         }
@@ -248,25 +306,152 @@
             grid-template-columns: auto auto auto;
             padding: 0px 20px;
         }
-
+        .div1{
+            width: 198px;
+        }
         .btn {
             display: grid;
             grid-template-columns: auto auto;
         }
     }
 
-    @media only screen and (max-width:786px) {
+    @media only screen and (max-width:1070px) {
+        .col3 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            
+        }
+        .div1{
+            width: 105px;
+        }
+        .btn {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    
+    }
+
+    @media only screen and (max-width:770px) {
         .col3 {
             display: grid;
             grid-template-columns: auto auto;
-            padding: 0px 20px;
+            
         }
-
+        .div1{
+            width: 50px;
+        }
         .btn {
             display: grid;
             grid-template-columns: auto auto;
         }
     }
+    @media only screen and (max-width:1305px) {
+        .col3 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            
+        }
+        .div1{
+            width: 158px;
+        }
+        .btn {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    }
+    
+
+    @media only screen and (max-width:1200px) {
+        .col3 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            
+        }
+        .div1{
+            width: 175px;
+        }
+        .btn {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    
+    }
+
+    
+
+    @media only screen and (max-width:1092px) {
+        .col3 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            
+        }
+        .div1{
+            width: 105px;
+        }
+        .btn {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    
+    }
+    
+    @media only screen and (max-width:1140px) {
+        .col3 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            
+        }
+        .div1{
+            width: 165px;
+        }
+        .btn {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    
+    }
+
+
+    @media only screen and (max-width:1000px) {
+        .col3 {
+            display: grid;
+            grid-template-columns: auto auto;
+            
+        }
+        .div1{
+            width: 148px;
+        }
+        .btn {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    }
+    @media only screen and (max-width:670px) {
+        .col3 {
+            display: grid;
+            grid-template-columns: auto auto;
+            
+        }
+        .div1{
+            width: 20%;
+            float: left;
+        }
+        .div2{
+            width:80%;
+        }
+        .btn {
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .button1{
+            margin: 0px 100px 10px 100px;
+        }
+        .button2{
+            margin: 10px 20px 0px 100px;
+        }
+    }
+
+   
 
     @media only screen and (max-width:540px) {
         .col3 {
@@ -281,7 +466,7 @@
         }
 
         .button1 {
-            margin: 10px 0px 10px 0px;
+            margin: 0px 100px 10px 100px;
         }
 
         .div1 {
@@ -302,7 +487,7 @@
             <ul>
                 <div><img src="Image1.jpg" alt="logo" class="divimg"></div>
                 <li><a href="#dashboard" class="dash"><i></i> Dashboard</a></li>
-                <li><a href="#Details" class="dash"><i></i> Client Details</a></li>
+                <li><a href="#Details" class="detail"><i></i> Client Details</a></li>
                 <li><a href="#Enquiry" class="dash"><i></i> Enquiry</a></li>
                 <li><a href="#Calendar" class="dash"><i></i> Calendar</a></li>
                 <li><a href="#Notification" class="dash"><i></i> Notification</a></li>
@@ -313,16 +498,16 @@
         <!--div2-->
         <div class="div2">
             <div class="header">
-                <a href="#menu" style="color:black"><i class="fa fa-bars" aria-hidden="true"></i></a>
                 <a href="#back" class="float"><i class="fa fa-fw fa-bell"></i></a>
                 <a class="button4"> Welcome Back</a>
                 <img src="profileimage.png" alt="Avatar" class="avatar">
-                <i class="fa fa-angle-down"></i>
+                <a href="#down" class="float"><i class="fa fa-angle-down"></i></a>
             </div>
             <!--div3-->
             <div class="div3">
                 <div class="add">Add New Clients</div>
                 <div class="rules">Marketing & Rules</div>
+                <button class="viewclient">view client</button>
 
             </div>
             <!--div4-->
